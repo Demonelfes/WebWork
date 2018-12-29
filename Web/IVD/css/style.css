@@ -1,0 +1,60 @@
+header{
+    font-family: cursive;
+    font-size: x-large;
+}
+header nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    
+    color: rgb(241, 239, 240);
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 377px;
+    height: 38px;
+    text-align: center;
+}
+header nav ul li a{
+    display: block;
+    
+}
+header nav ul li a:hover{
+    background-color: rgba(39, 31, 31, 0.45);
+}
+header nav ul li ul li{
+    display: none;
+}
+header nav ul li:hover ul li{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 239, 240);
+}
+body{
+    background: url('../img/Louise.jpg') no-repeat;
+    background-size: 120%;
+}
+h1{
+    color: rgb(241, 239, 240);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 300%;
+}
+h3{
+    color: rgb(241, 239, 240);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+h5{
+    color: rgb(12, 11, 11);
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 120%;
+    font-weight: normal;
+}
